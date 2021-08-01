@@ -170,7 +170,7 @@ class MemberRepositoryTest {
         System.out.println("member = " + member);
         Optional<Member> optionalMember = memberRepository.findOptinalByUsername("AAA");
         System.out.println("optionalMember = " + optionalMember);
-                
+
 
     }
 
